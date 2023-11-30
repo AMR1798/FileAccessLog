@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: AMRMZKR <ammar.muzakkir@gmail.com>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>falog</id>
+    <name>F A Log</name>
+    <summary>Log views on file access after a file has been shared</summary>
+    <description><![CDATA[Yes]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="ammar.muzakkir@gmail.com" homepage="https://amrmzkr.com">AMRMZKR</author>
+    <namespace>FALog</namespace>
+    <category>monitoring</category>
+    <bugs>https://github.com/AMR1798/FileAccessLog</bugs>
+    <dependencies>
+        <nextcloud min-version="27" max-version="27"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>F A Log</name>
+            <route>falog.page.index</route>
+        </navigation>
+    </navigations>
+</info>
