@@ -9,7 +9,7 @@
     <name>F A Log</name>
     <summary>Log views on file access after a file has been shared</summary>
     <description><![CDATA[Yes]]></description>
-    <version>0.0.1</version>
+    <version>0.0.3</version>
     <licence>agpl</licence>
     <author mail="ammar.muzakkir@gmail.com" homepage="https://amrmzkr.com">AMRMZKR</author>
     <namespace>FALog</namespace>
@@ -18,10 +18,13 @@
     <dependencies>
         <nextcloud min-version="27" max-version="27"/>
     </dependencies>
-    <navigations>
+    <!-- <navigations>
         <navigation>
             <name>F A Log</name>
             <route>falog.page.index</route>
         </navigation>
-    </navigations>
+    </navigations> -->
+    <types>
+        <filesystem/>
+    </types>
 </info>
