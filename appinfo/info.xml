@@ -9,7 +9,7 @@
     <name>F A Log</name>
     <summary>Log views on file access after a file has been shared</summary>
     <description><![CDATA[Yes]]></description>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <licence>agpl</licence>
     <author mail="ammar.muzakkir@gmail.com" homepage="https://amrmzkr.com">AMRMZKR</author>
     <namespace>FALog</namespace>

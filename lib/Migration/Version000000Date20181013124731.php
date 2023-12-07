@@ -31,7 +31,7 @@ class Version000000Date20181013124731 extends SimpleMigrationStep {
 			]);
 			$table->addColumn('ip', 'string', [
 				'notnull' => true,
-				'length' => 20,
+				'length' => 200,
 			]);
 			$table->addColumn('timestamp', 'integer', [
 				'notnull' => true,
@@ -41,7 +41,7 @@ class Version000000Date20181013124731 extends SimpleMigrationStep {
 			]);
 			$table->addColumn('user_type', 'string', [
 				'notnull' => true,
-				'length' => 20
+				'length' => 50
 			]);
 
 			$table->addColumn('user_id', 'string', [
